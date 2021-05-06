@@ -39,7 +39,7 @@ switch (promtAnswer) {
 function showAlert(){
     thisH1.innerHTML="Hello!";
 }
-let thisButton = document.getElementsByTagName("Button")[0];
+let thisButton = document.getElementsByTagName("#btm")[0];
 let thisH1=document.getElementsByTagName("h1")[0];
 thisButton.addEventListener("click",showAlert);
 /*thisButton.onclick=function(){

@@ -1,7 +1,7 @@
 let timer = document.getElementById("timer");
 let userInput = document.getElementById("userInput");
 let hint = document.getElementById("hint");
-let button = document.getElementsByTagName("button")[0];
+let button = document.getElementById("x");
 let count = 10;
 
 timer.innerHTML = count;

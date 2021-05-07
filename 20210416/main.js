@@ -39,8 +39,8 @@ switch (promtAnswer) {
 function showAlert(){
     thisH1.innerHTML="Hello!";
 }
-let thisButton = document.getElementsByTagName("#btm")[0];
-let thisH1=document.getElementsByTagName("h1")[0];
+let thisButton = document.getElementById("btm");
+let thisH1=document.getElementById("Response");
 thisButton.addEventListener("click",showAlert);
 /*thisButton.onclick=function(){
    // showAlert();

@@ -9,7 +9,7 @@ $(function () {
     ];
     ctx = $("#myCanvas")[0].getContext("2d");
     imgMain = new Image();
-    imgMain.src = "images/spriteSheet.png"
+    imgMain.src = "p76/images/spriteSheet.png"
     currentImgMain = {
         x: 0,
         y: 0
@@ -20,9 +20,9 @@ $(function () {
         ctx.drawImage(imgMain, 0, 0, 80, 130, currentImgMain.x, currentImgMain.y, gridLength, gridLength);
     }
     imgMountain = new Image();
-    imgMountain.src = "images/material.png"
+    imgMountain.src = "p76/images/material.png"
     imgEnemy = new Image();
-    imgEnemy.src = "images/Enemy.png"
+    imgEnemy.src = "p76/images/Enemy.png"
     imgMountain.onload = function () {
         imgEnemy.onload = function () {
             for (var x in mapArray) {
